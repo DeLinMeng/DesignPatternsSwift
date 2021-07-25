@@ -1,0 +1,44 @@
+PODS:
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.2)
+  - RxTest (5.1.2):
+    - RxSwift (~> 5)
+  - SwiftMonkey (2.2.0)
+  - SwiftMonkeyPaws (2.2.0)
+
+DEPENDENCIES:
+  - RxBlocking (~> 5.0)
+  - RxCocoa (~> 5.0)
+  - RxSwift (~> 5.0)
+  - RxTest (~> 5.0)
+  - SwiftMonkey
+  - SwiftMonkeyPaws
+
+SPEC REPOS:
+  trunk:
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SwiftMonkey
+    - SwiftMonkeyPaws
+
+SPEC CHECKSUMS:
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  RxTest: 274549b747dca56f47c52c8991ec5cf797ecfe40
+  SwiftMonkey: 24ffde5b590d3658cfcb1d775cf74b9f5280eb9c
+  SwiftMonkeyPaws: 9d183b8a1b9cfd497c2704342e861b71412d94f5
+
+PODFILE CHECKSUM: 20ec43063ce38240d761368b6cff7a999ae6a038
+
+COCOAPODS: 1.10.0

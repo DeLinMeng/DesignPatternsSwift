@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-DesignMode-DesignModeUITests/Pods-DesignMode-DesignModeUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftMonkeyPaws/SwiftMonkeyPaws.framework
+${BUILT_PRODUCTS_DIR}/SwiftMonkey/SwiftMonkey.framework
