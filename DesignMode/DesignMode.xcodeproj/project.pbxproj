@@ -17,6 +17,7 @@
 		7BAE3DA826AD8D53004910A8 /* MLReusingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3DA026AD8D53004910A8 /* MLReusingProtocol.swift */; };
 		7BAE3DA926AD8D53004910A8 /* MLArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3DA126AD8D53004910A8 /* MLArrayDataSource.swift */; };
 		7BAE3DAF26AD9373004910A8 /* Communicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3DAE26AD9373004910A8 /* Communicator.swift */; };
+		7BAE3DB726ADC4E7004910A8 /* CommunicatorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3DB626ADC4E7004910A8 /* CommunicatorBridge.swift */; };
 		7BF7AF2126AD83560020F2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7AF2026AD83560020F2DF /* AppDelegate.swift */; };
 		7BF7AF2526AD83560020F2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7AF2426AD83560020F2DF /* ViewController.swift */; };
 		7BF7AF2826AD83560020F2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF7AF2626AD83560020F2DF /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		7BAE3DA026AD8D53004910A8 /* MLReusingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLReusingProtocol.swift; sourceTree = "<group>"; };
 		7BAE3DA126AD8D53004910A8 /* MLArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLArrayDataSource.swift; sourceTree = "<group>"; };
 		7BAE3DAE26AD9373004910A8 /* Communicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communicator.swift; sourceTree = "<group>"; };
+		7BAE3DB626ADC4E7004910A8 /* CommunicatorBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicatorBridge.swift; sourceTree = "<group>"; };
 		7BF7AF1D26AD83560020F2DF /* DesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF7AF2026AD83560020F2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BF7AF2426AD83560020F2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				7BAE3DAE26AD9373004910A8 /* Communicator.swift */,
+				7BAE3DB626ADC4E7004910A8 /* CommunicatorBridge.swift */,
 			);
 			path = "桥接模式";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 		7BF7AF1526AD83560020F2DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
@@ -573,6 +577,7 @@
 				7BAE3DA326AD8D53004910A8 /* ChildTwoViewController.swift in Sources */,
 				7BAE3DA626AD8D53004910A8 /* SingleTableView.swift in Sources */,
 				7BAE3DA426AD8D53004910A8 /* ChildViewController.swift in Sources */,
+				7BAE3DB726ADC4E7004910A8 /* CommunicatorBridge.swift in Sources */,
 				7BAE3DA226AD8D53004910A8 /* Subscribe.swift in Sources */,
 				7BF7AF2526AD83560020F2DF /* ViewController.swift in Sources */,
 				7BAE3DA726AD8D53004910A8 /* UITableViewCell+Reuse.swift in Sources */,
