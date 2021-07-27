@@ -8,15 +8,11 @@
 import Foundation
 
 protocol ClearMessageChannel {
-    
     func send(message:String);
-    
 }
 
 protocol SecureMessageChannel {
-    
     func sendEncrytedMessage(encryptedText:String);
-    
 }
 
 class Communicator {
@@ -38,6 +34,25 @@ class Communicator {
     
     func sendSecureMessage(message:String) {
         self.secureChannel.sendEncrytedMessage(encryptedText: message)
+    }
+    
+}
+
+
+
+class LandLine: ClearMessageChannel {
+    
+    func send(message: String) {
+        print("LandLine:\(message)")
+    }
+    
+}
+
+
+class SecureLandLine: SecureMessageChannel {
+    
+    func sendEncrytedMessage(encryptedText: String) {
+        print("Seruce landline :\(encryptedText)")
     }
     
 }
