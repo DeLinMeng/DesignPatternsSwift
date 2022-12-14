@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		30F7D4E63CE71720F5BC2123 /* Pods_DesignMode_DesignModeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EEEA5D5AC4DB475A2931BA /* Pods_DesignMode_DesignModeTests.framework */; };
+		7B4F9F6E29388AF3008CB40F /* ICourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F6D29388AF3008CB40F /* ICourse.swift */; };
+		7B4F9F7029388BD0008CB40F /* SwiftCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F6F29388BD0008CB40F /* SwiftCourse.swift */; };
+		7B4F9F7229388CD2008CB40F /* PythonCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7129388CD2008CB40F /* PythonCourse.swift */; };
+		7B4F9F7529388D23008CB40F /* CourseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7429388D23008CB40F /* CourseFactory.swift */; };
+		7B4F9F7729388D86008CB40F /* SwiftCourseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7629388D86008CB40F /* SwiftCourseFactory.swift */; };
+		7B4F9F7929388F09008CB40F /* PythonCourseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7829388F09008CB40F /* PythonCourseFactory.swift */; };
+		7B4F9F7B293897EB008CB40F /* AbsCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7A293897EB008CB40F /* AbsCourse.swift */; };
+		7B4F9F7D2938A954008CB40F /* AbsCourseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7C2938A954008CB40F /* AbsCourseFactory.swift */; };
+		7B4F9F7F2938A9A1008CB40F /* AbsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F7E2938A9A1008CB40F /* AbsLog.swift */; };
+		7B4F9F812938AA3A008CB40F /* AbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F802938AA3A008CB40F /* AbsView.swift */; };
+		7B4F9F832938AA93008CB40F /* JavaAbsCourseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9F822938AA93008CB40F /* JavaAbsCourseFactory.swift */; };
 		7BAE3DA226AD8D53004910A8 /* Subscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3D9526AD8D52004910A8 /* Subscribe.swift */; };
 		7BAE3DA326AD8D53004910A8 /* ChildTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3D9826AD8D52004910A8 /* ChildTwoViewController.swift */; };
 		7BAE3DA426AD8D53004910A8 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3D9926AD8D53004910A8 /* ChildViewController.swift */; };
@@ -50,6 +61,17 @@
 		659355D123E921A8220C5079 /* Pods-DesignMode-DesignModeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignMode-DesignModeTests.debug.xcconfig"; path = "Target Support Files/Pods-DesignMode-DesignModeTests/Pods-DesignMode-DesignModeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		762DE9DD50A56991DC496015 /* Pods_DesignMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A99A0445103CD39A6CDB27F /* Pods-DesignMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignMode.release.xcconfig"; path = "Target Support Files/Pods-DesignMode/Pods-DesignMode.release.xcconfig"; sourceTree = "<group>"; };
+		7B4F9F6D29388AF3008CB40F /* ICourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICourse.swift; sourceTree = "<group>"; };
+		7B4F9F6F29388BD0008CB40F /* SwiftCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCourse.swift; sourceTree = "<group>"; };
+		7B4F9F7129388CD2008CB40F /* PythonCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonCourse.swift; sourceTree = "<group>"; };
+		7B4F9F7429388D23008CB40F /* CourseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFactory.swift; sourceTree = "<group>"; };
+		7B4F9F7629388D86008CB40F /* SwiftCourseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCourseFactory.swift; sourceTree = "<group>"; };
+		7B4F9F7829388F09008CB40F /* PythonCourseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonCourseFactory.swift; sourceTree = "<group>"; };
+		7B4F9F7A293897EB008CB40F /* AbsCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsCourse.swift; sourceTree = "<group>"; };
+		7B4F9F7C2938A954008CB40F /* AbsCourseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsCourseFactory.swift; sourceTree = "<group>"; };
+		7B4F9F7E2938A9A1008CB40F /* AbsLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsLog.swift; sourceTree = "<group>"; };
+		7B4F9F802938AA3A008CB40F /* AbsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsView.swift; sourceTree = "<group>"; };
+		7B4F9F822938AA93008CB40F /* JavaAbsCourseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaAbsCourseFactory.swift; sourceTree = "<group>"; };
 		7BAE3D9526AD8D52004910A8 /* Subscribe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscribe.swift; sourceTree = "<group>"; };
 		7BAE3D9826AD8D52004910A8 /* ChildTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildTwoViewController.swift; sourceTree = "<group>"; };
 		7BAE3D9926AD8D53004910A8 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +139,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B4F9F7329388CFD008CB40F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F9F7429388D23008CB40F /* CourseFactory.swift */,
+				7B4F9F7629388D86008CB40F /* SwiftCourseFactory.swift */,
+				7B4F9F7829388F09008CB40F /* PythonCourseFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		7BAE3D8C26AD8D52004910A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,11 +167,11 @@
 		7BAE3D8D26AD8D52004910A8 /* Designs */ = {
 			isa = PBXGroup;
 			children = (
-				7BAE3DAD26AD92B2004910A8 /* 桥接模式 */,
+				7BAE3D9126AD8D52004910A8 /* 简单工厂 */,
 				7BAE3D8E26AD8D52004910A8 /* 抽象工厂 */,
+				7BAE3DAD26AD92B2004910A8 /* 桥接模式 */,
 				7BAE3D8F26AD8D52004910A8 /* 建造者 */,
 				7BAE3D9026AD8D52004910A8 /* 适配器 */,
-				7BAE3D9126AD8D52004910A8 /* 工厂 */,
 			);
 			path = Designs;
 			sourceTree = "<group>";
@@ -147,6 +179,11 @@
 		7BAE3D8E26AD8D52004910A8 /* 抽象工厂 */ = {
 			isa = PBXGroup;
 			children = (
+				7B4F9F7E2938A9A1008CB40F /* AbsLog.swift */,
+				7B4F9F7A293897EB008CB40F /* AbsCourse.swift */,
+				7B4F9F802938AA3A008CB40F /* AbsView.swift */,
+				7B4F9F7C2938A954008CB40F /* AbsCourseFactory.swift */,
+				7B4F9F822938AA93008CB40F /* JavaAbsCourseFactory.swift */,
 			);
 			path = "抽象工厂";
 			sourceTree = "<group>";
@@ -165,11 +202,15 @@
 			path = "适配器";
 			sourceTree = "<group>";
 		};
-		7BAE3D9126AD8D52004910A8 /* 工厂 */ = {
+		7BAE3D9126AD8D52004910A8 /* 简单工厂 */ = {
 			isa = PBXGroup;
 			children = (
+				7B4F9F7329388CFD008CB40F /* Factory */,
+				7B4F9F6D29388AF3008CB40F /* ICourse.swift */,
+				7B4F9F6F29388BD0008CB40F /* SwiftCourse.swift */,
+				7B4F9F7129388CD2008CB40F /* PythonCourse.swift */,
 			);
-			path = "工厂";
+			path = "简单工厂";
 			sourceTree = "<group>";
 		};
 		7BAE3D9226AD8D52004910A8 /* JS */ = {
@@ -568,16 +609,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4F9F7229388CD2008CB40F /* PythonCourse.swift in Sources */,
+				7B4F9F7B293897EB008CB40F /* AbsCourse.swift in Sources */,
 				7BAE3DAF26AD9373004910A8 /* Communicator.swift in Sources */,
+				7B4F9F7529388D23008CB40F /* CourseFactory.swift in Sources */,
 				7BAE3DA526AD8D53004910A8 /* SingleTableViewRow.swift in Sources */,
 				7BAE3DA326AD8D53004910A8 /* ChildTwoViewController.swift in Sources */,
 				7BAE3DA626AD8D53004910A8 /* SingleTableView.swift in Sources */,
+				7B4F9F812938AA3A008CB40F /* AbsView.swift in Sources */,
 				7BAE3DA426AD8D53004910A8 /* ChildViewController.swift in Sources */,
+				7B4F9F7929388F09008CB40F /* PythonCourseFactory.swift in Sources */,
 				7BAE3DA226AD8D53004910A8 /* Subscribe.swift in Sources */,
+				7B4F9F7029388BD0008CB40F /* SwiftCourse.swift in Sources */,
+				7B4F9F7F2938A9A1008CB40F /* AbsLog.swift in Sources */,
+				7B4F9F7729388D86008CB40F /* SwiftCourseFactory.swift in Sources */,
 				7BF7AF2526AD83560020F2DF /* ViewController.swift in Sources */,
 				7BAE3DA726AD8D53004910A8 /* UITableViewCell+Reuse.swift in Sources */,
+				7B4F9F832938AA93008CB40F /* JavaAbsCourseFactory.swift in Sources */,
 				7BAE3DA926AD8D53004910A8 /* MLArrayDataSource.swift in Sources */,
 				7BF7AF2126AD83560020F2DF /* AppDelegate.swift in Sources */,
+				7B4F9F6E29388AF3008CB40F /* ICourse.swift in Sources */,
+				7B4F9F7D2938A954008CB40F /* AbsCourseFactory.swift in Sources */,
 				7BAE3DA826AD8D53004910A8 /* MLReusingProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

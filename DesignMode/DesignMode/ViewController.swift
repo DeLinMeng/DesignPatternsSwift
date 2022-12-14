@@ -40,6 +40,8 @@ class ViewController: UIViewController {
     @objc private func finish2() {
         self.transition(from: childVC, to: childVC2, duration: .greatestFiniteMagnitude, options: .curveEaseInOut) {
         } completion: { (finish) in
+            
+            
         }
     }
     

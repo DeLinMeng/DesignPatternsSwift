@@ -10,16 +10,21 @@ import UIKit
 class ChildTwoViewController: UIViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.white
-        
         
         let bt = UIButton.init()
         bt.frame = CGRect(x: 0, y: 100, width: 200, height: 100)
         bt.setTitleColor(UIColor.black, for: .normal)
         bt.setTitle("哈哈2222", for: .normal)
         self.view.addSubview(bt)
+        
+        
+        let factory = PythonCourseFactory()
+        let cource = factory.create()
+        cource?.log()
         
     }
     
